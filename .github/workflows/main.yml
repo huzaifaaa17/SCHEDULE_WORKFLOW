@@ -1,6 +1,7 @@
 name: SCHEDULE_WORFLOW
 
 on:
+  workflow_dispatch: 
   schedule:
     - cron: "0 0 * * *"
 
